@@ -30,7 +30,7 @@ Iterating on the previous use case, we could just simply call the Bash script fr
 ```
 try:
         output = subprocess.check_output(bashCommand)
-				l = ast.literal_eval(output)
+	l = ast.literal_eval(output)
 except Exception as e:
         error = str(e)
 
